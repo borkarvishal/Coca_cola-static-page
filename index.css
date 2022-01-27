@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+}
+/* logo block */
+#logoBlock {
+  width: 100%;
+  height: 7.75rem;
+  margin: 5px;
+}
+#logoBlock > article {
+  width: 80%;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  height: 3.75rem;
+  max-width: 100%;
+}
+/* Navbar */
+.navBlock > nav > ul {
+  display: flex;
+}
+.navBlock > nav > ul > li {
+  list-style: none;
+  padding: 15px;
+}
+.navBlock nav ul li a {
+  text-decoration: none;
+  color: #111;
+  font-size: 18px;
+}
+/* sliders */
+.slider1 {
+  background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/responsible-business/sustainable-business/www-design-masthead-1440x480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+#contentblock {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 155px;
+  margin-top: 130px;
+  padding: 10px;
+}
+
+#contentblock > :nth-child(1) {
+  font-size: 37px;
+
+  color: white;
+  font-weight: bold;
+}
+
+#contentblock > :nth-child(2) {
+  color: white;
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+#contentblock > :nth-child(3) {
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.slider2 {
+  background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/desktop/woman-fills-water-jug.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  background-position: center top 20%;
+  position: relative;
+}
+
+#contentblock2 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  position: absolute;
+  padding: 10px;
+  left: 984px;
+  top: 143px;
+}
+#contentblock2 > :nth-child(1) {
+  font-size: 37px;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+}
+
+#contentblock2 > :nth-child(2) {
+  color: white;
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+#contentblock2 > :nth-child(3) {
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.slider3 {
+  background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/coca-cola-racial-equality-1440x848.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  background-position: center top 20%;
+  position: relative;
+}
+
+#contentblock3 {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  position: absolute;
+  padding: 10px;
+  left: 180px;
+  top: 193px;
+}
+#contentblock3 > :nth-child(1) {
+  font-size: 37px;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+}
+
+#contentblock3 > :nth-child(2) {
+  color: white;
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+#contentblock3 > :nth-child(3) {
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.slider4 {
+  background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/coca-cola-covid-relief-efforts-1440x848.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  background-position: center top 20%;
+  position: relative;
+}
+#contentblock4 {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  position: absolute;
+  padding: 10px;
+  left: 180px;
+  top: 193px;
+}
+#contentblock4 > :nth-child(1) {
+  font-size: 37px;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+}
+
+#contentblock4 > :nth-child(2) {
+  color: white;
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+#contentblock4 > :nth-child(3) {
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.slider5 {
+  background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/coca-cola-portfolio-homepage-1440x848.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-position: center top 20%;
+  position: relative;
+}
+#contentblock5 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  position: absolute;
+  padding: 10px;
+  left: 980px;
+  top: 253px;
+}
+#contentblock5 > :nth-child(1) {
+  font-size: 37px;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+}
+
+#contentblock5 > :nth-child(2) {
+  color: white;
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+#contentblock5 > :nth-child(3) {
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.slider6 {
+  background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/landing-pages/sustainable-agriculture-woman-farmer-horizontal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  background-position: center top 20%;
+  position: relative;
+}
+#contentblock6 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  position: absolute;
+  padding: 10px;
+  left: 980px;
+  top: 183px;
+}
+#contentblock6 > :nth-child(1) {
+  font-size: 37px;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+}
+
+#contentblock6 > :nth-child(2) {
+  color: white;
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+#contentblock6 > :nth-child(3) {
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.slider7 {
+  background-image: url("https://www.coca-colacompany.com/content/dam/journey/us/en/home-page/home-position-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  background-position: center top 20%;
+  position: relative;
+}
+#contentblock7 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  position: absolute;
+  padding: 10px;
+  left: 200px;
+  top: 183px;
+}
+#contentblock7 > :nth-child(1) {
+  font-size: 37px;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+}
+
+#contentblock7 > :nth-child(2) {
+  color: white;
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+#contentblock7 > :nth-child(3) {
+  color: white;
+  margin-top: 15px;
+  font-size: 20px;
+}
+/* Footer */
+
+.start {
+  background: #777;
+}
+#footerbar {
+  display: flex;
+  width: 90%;
+  margin: 0px auto;
+  padding-top: 50px;
+}
+
+#footerbar div img {
+  flex-basis: 10%;
+  justify-content: center;
+  display: flex;
+  margin-top: 5px;
+}
+#footerbar div ul {
+  flex-basis: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 30px;
+}
+#footerbar div ul li {
+  list-style: none;
+}
+#footerbar div ul li a {
+  text-decoration: none;
+  color: white;
+
+  padding: 10px;
+}
+#rights {
+  font-size: 15px;
+  color: white;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+
+.lastitem {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+#terms {
+  justify-content: flex-start;
+}
+#terms ul {
+  display: flex;
+  flex-basis: 50%;
+}
+
+#terms ul li {
+  list-style: none;
+  color: white;
+  padding: 0px 5px;
+}
+
+#icons ul {
+  display: flex;
+  margin-left: 450px;
+}
+#icons ul li {
+  list-style: none;
+  color: white;
+  padding: 0px 10px;
+}
